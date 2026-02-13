@@ -72,7 +72,6 @@ function optionSelected () {
     document.getElementById("dvFeedback").style.display = "none"
     document.getElementById("autocomplete-dropdown").innerHTML = ""
     document.getElementById("autocomplete-dropdown2").innerHTML = ""
-    console.log("credntials: ", token, clientId, orgId, companyId)
     
     var result = "";
     if (optionSelectedValue == "0") {
